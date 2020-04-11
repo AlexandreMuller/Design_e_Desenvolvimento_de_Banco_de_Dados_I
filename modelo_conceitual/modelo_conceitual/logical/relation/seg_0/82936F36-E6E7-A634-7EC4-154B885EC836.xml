@@ -7,11 +7,11 @@
 <item key="27201BB3-97D5-6252-F32D-1E900D3B7C7C" value="true"/>
 </engineerTo>
 <identifying>false</identifying>
-<optionalSource>true</optionalSource>
+<optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>98F1ED8B-E885-C929-513F-10686567C28E</sourceEntity>
-<targetCardinalityString>*</targetCardinalityString>
+<targetCardinalityString>1</targetCardinalityString>
 <targetEntity>9AB72439-5B92-ECEB-4F27-F780613C40BD</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
