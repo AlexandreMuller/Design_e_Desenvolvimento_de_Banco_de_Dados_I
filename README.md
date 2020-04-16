@@ -17,7 +17,7 @@
 
 <p align="center"><img width="590px" height="416" src="https://github.com/AlexandreMuller/Design_e_Desenvolvimento_de_Banco_de_Dados_I/blob/master/Imagens/Posto%20de%20gasolina.webp"></p>
 
-## Quais perguntas o banco de dados pode responder
+## Quais perguntas que o banco de dados pode responder
 
 1. Quais tipos de veículo o posto mais atende?
 2. Tipo de combustível mais vendido? e menos vendido?
