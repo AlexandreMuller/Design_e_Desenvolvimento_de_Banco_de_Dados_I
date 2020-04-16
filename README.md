@@ -13,9 +13,9 @@
 
 <p align="justify">A empresa possui 4 bombas, oferecendo uma variedade de combustível para seus clientes abastecerem seus carros, motos, caminhões etc. Possui também uma área para a compra de óleo, aditivos, entre outros pequenos produtos para os veículos. Já a loja, como também uma área de vivência, prepara lanches e cafés da manhã, além de vender as guloseimas e biscoitos.</p>
 
-<p align="justify">O posto não oferece serviço apenas para clientes que chegam com seus veículos (carro, moto, caminhão etc.), mas tambem oferecem para pessoas que apenas estão para comprar algum produto no estabelecimento. Alêm disso, é importante mencionar que calibrar pneus, trocar o oleo e limpeza de parabrisa são totalmente gratuitos no posto8 
+<p align="justify">O posto não oferece serviço apenas para clientes que chegam com seus veículos (carro, moto, caminhão etc.), mas tambem oferecem para pessoas que apenas estão para comprar algum produto no estabelecimento. Alêm disso, é importante mencionar que calibrar pneus, trocar o oleo e limpeza de parabrisa são totalmente **gratuitos** no posto8 
 
-Qualquer compra realizada no posto8 tera que ser paga diretamente no atendente localizado na loja de conveniência, que ira confirmar e registrar seu pagamento.</p>
+**Qualquer compra realizada no posto8 tera que ser paga diretamente no atendente localizado na loja de conveniência, que ira confirmar e registrar seu pagamento.**</p>
 
 <p align="center"><img width="590px" height="416" src="https://github.com/AlexandreMuller/Design_e_Desenvolvimento_de_Banco_de_Dados_I/blob/master/Imagens/Posto%20de%20gasolina.webp"></p>
 
