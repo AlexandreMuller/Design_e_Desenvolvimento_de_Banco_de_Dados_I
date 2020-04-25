@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CEE03A0E-C9B7-69E7-3898-FA6BD497739D" name="Produtos">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-23 22:41:41 UTC</createdTime>
+<ownerDesignName>Inicio</ownerDesignName>
+<engineerTo>
+<item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="asdasdasdasd" id="58C6E141-81B6-636B-FC89-75677AC1B009">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-23 22:55:15 UTC</createdTime>
+<generatorID>3FE3AC8B-C0E8-B943-6A9D-659403E28B77</generatorID>
+<ownerDesignName>Inicio</ownerDesignName>
+<engineerTo>
+<item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
+</engineerTo>
+<referedAttribute>4B7FC8AB-6BF8-DCA9-7587-A87E047A563E</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="item" id="9DD7E3C1-93B0-4D66-5167-150C2EEBD0F6">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-24 23:36:31 UTC</createdTime>
+<ownerDesignName>Inicio</ownerDesignName>
+<engineerTo>
+<item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="02EADA05-E0C7-888B-8758-2474D78696BF">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-24 23:36:38 UTC</createdTime>
+<ownerDesignName>Inicio</ownerDesignName>
+<engineerTo>
+<item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="quantidade" id="552B3CE1-735B-806A-286A-25B81AAD0145">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-24 23:36:43 UTC</createdTime>
+<ownerDesignName>Inicio</ownerDesignName>
+<engineerTo>
+<item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descricao" id="288A707F-F006-9B9B-DD39-7F3832852F9F">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-24 23:36:49 UTC</createdTime>
+<ownerDesignName>Inicio</ownerDesignName>
+<engineerTo>
+<item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="marca" id="0F536135-E90F-AD07-9BF3-6D016E54DF71">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-24 23:47:40 UTC</createdTime>
+<ownerDesignName>Inicio</ownerDesignName>
+<engineerTo>
+<item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F2AD8A31-FFF2-B306-0B84-E9CF6FE2E742" name="Produtos PK">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-23 22:55:15 UTC</createdTime>
+<ownerDesignName>Inicio</ownerDesignName>
+<engineerTo>
+<item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+</identifier>
+</identifiers>
+</Entity>

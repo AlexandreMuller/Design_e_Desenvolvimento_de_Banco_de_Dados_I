@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="916F1E2B-C776-B6C6-C08C-60896516B9BC" name="Abastecimentos">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-23 22:43:24 UTC</createdTime>
+<ownerDesignName>Inicio</ownerDesignName>
+<engineerTo>
+<item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="asdfasdfasdff" id="47FB2545-2903-BC01-1B54-341DB6F9842A">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-25 00:10:40 UTC</createdTime>
+<generatorID>C5B40802-F0EC-FD10-7A06-1CEBC534ADFA</generatorID>
+<ownerDesignName>Inicio</ownerDesignName>
+<engineerTo>
+<item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
+</engineerTo>
+<referedAttribute>3212D124-2A3F-0CE1-6871-583361E9A027</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="combustivel" id="BB07DA5E-2A91-925A-99F1-53736E653293">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-25 00:14:13 UTC</createdTime>
+<ownerDesignName>Inicio</ownerDesignName>
+<engineerTo>
+<item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data" id="6E13AB04-9C53-3799-E7D2-1F450E7E297B">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-25 00:14:23 UTC</createdTime>
+<ownerDesignName>Inicio</ownerDesignName>
+<engineerTo>
+<item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor" id="94727D0C-B97C-9208-A99A-C49192C881D1">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-25 00:17:37 UTC</createdTime>
+<ownerDesignName>Inicio</ownerDesignName>
+<engineerTo>
+<item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nota" id="8F955640-2FEC-8E2C-4389-7B9CEEF3C07B">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-25 00:25:40 UTC</createdTime>
+<ownerDesignName>Inicio</ownerDesignName>
+<engineerTo>
+<item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="10593C55-F954-E30A-D684-0545B4DCC4F1">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-25 00:29:58 UTC</createdTime>
+<generatorID>7584CAE3-2B89-4398-BA4D-FE5AF6A8925A</generatorID>
+<ownerDesignName>Inicio</ownerDesignName>
+<engineerTo>
+<item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
+</engineerTo>
+<referedAttribute>A2C0026C-9E4A-BE6B-64FC-23F85F53EBCA</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6254EBCB-7C56-7CB8-2ADC-AF0BCE4F6A39" name="Abastecimentos PK">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-25 00:16:23 UTC</createdTime>
+<ownerDesignName>Inicio</ownerDesignName>
+<engineerTo>
+<item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BB07DA5E-2A91-925A-99F1-53736E653293</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

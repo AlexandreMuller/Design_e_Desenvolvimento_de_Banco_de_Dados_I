@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2FEEDA70-C4AF-BF97-15B6-21261823D4EB" name="Fornecedores">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-16 20:00:18 UTC</createdTime>
+<ownerDesignName>Inicio</ownerDesignName>
+<engineerTo>
+<item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cnpj" id="4B7FC8AB-6BF8-DCA9-7587-A87E047A563E">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-17 21:50:16 UTC</createdTime>
+<ownerDesignName>Inicio</ownerDesignName>
+<engineerTo>
+<item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="razao_social" id="04AB770B-92D8-8759-2A73-23806ACA194B">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-17 21:48:11 UTC</createdTime>
+<ownerDesignName>Inicio</ownerDesignName>
+<engineerTo>
+<item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="produto_fornecido" id="C79D6020-1058-228C-A73D-207A3FC3014F">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-17 21:48:45 UTC</createdTime>
+<ownerDesignName>Inicio</ownerDesignName>
+<engineerTo>
+<item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="contato" id="8C59445C-9472-BBA2-5470-503D362DBA66">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-17 21:51:00 UTC</createdTime>
+<ownerDesignName>Inicio</ownerDesignName>
+<engineerTo>
+<item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2698B4B6-9028-6530-1C4E-E1EC833C932B" name="Fornecedores PK">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-17 21:50:25 UTC</createdTime>
+<ownerDesignName>Inicio</ownerDesignName>
+<engineerTo>
+<item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4B7FC8AB-6BF8-DCA9-7587-A87E047A563E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
