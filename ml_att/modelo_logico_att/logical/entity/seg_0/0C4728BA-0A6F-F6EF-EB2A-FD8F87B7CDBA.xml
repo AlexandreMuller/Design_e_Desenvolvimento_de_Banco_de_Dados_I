@@ -2,7 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0C4728BA-0A6F-F6EF-EB2A-FD8F87B7CDBA" name="Vendas">
 <createdBy>USUÁRIO 01</createdBy>
 <createdTime>2020-04-23 19:35:34 UTC</createdTime>
-<ownerDesignName>Inicio</ownerDesignName>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
 <engineerTo>
 <item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
 </engineerTo>
@@ -19,7 +19,7 @@
 <createdBy>USUÁRIO 01</createdBy>
 <createdTime>2020-04-25 00:05:59 UTC</createdTime>
 <generatorID>0424AAE5-55F9-FF0A-04C6-D27917EBD535</generatorID>
-<ownerDesignName>Inicio</ownerDesignName>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
 <engineerTo>
 <item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
 </engineerTo>
@@ -31,7 +31,7 @@
 <createdBy>USUÁRIO 01</createdBy>
 <createdTime>2020-04-25 00:29:58 UTC</createdTime>
 <generatorID>5D45E1C2-81F1-5C98-B5D7-7B893B3BD5C5</generatorID>
-<ownerDesignName>Inicio</ownerDesignName>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
 <engineerTo>
 <item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
 </engineerTo>
@@ -39,10 +39,20 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="nota_fiscal" id="FDAAC37E-6786-26CC-AD85-D2805901D5D7">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-28 20:11:58 UTC</createdTime>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<engineerTo>
+<item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="valor" id="30F8521E-F0B2-D34F-EAFC-D8A3ACB029D7">
 <createdBy>USUÁRIO 01</createdBy>
 <createdTime>2020-04-25 00:30:35 UTC</createdTime>
-<ownerDesignName>Inicio</ownerDesignName>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
 <engineerTo>
 <item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
 </engineerTo>
@@ -53,7 +63,7 @@
 <Attribute name="data" id="1BEB02F5-262F-8BEF-91EB-6F75CFF6CC10">
 <createdBy>USUÁRIO 01</createdBy>
 <createdTime>2020-04-25 00:31:13 UTC</createdTime>
-<ownerDesignName>Inicio</ownerDesignName>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
 <engineerTo>
 <item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
 </engineerTo>
@@ -62,4 +72,18 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5BF16DCF-C7CB-B646-4B50-D94769129900" name="Vendas PK">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-28 20:12:15 UTC</createdTime>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<engineerTo>
+<item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FDAAC37E-6786-26CC-AD85-D2805901D5D7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

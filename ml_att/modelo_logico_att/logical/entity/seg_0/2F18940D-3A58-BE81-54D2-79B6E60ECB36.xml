@@ -2,7 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2F18940D-3A58-BE81-54D2-79B6E60ECB36" name="Produtos_Vendas">
 <createdBy>USUÁRIO 01</createdBy>
 <createdTime>2020-04-24 23:21:35 UTC</createdTime>
-<ownerDesignName>Inicio</ownerDesignName>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
 <engineerTo>
 <item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
 </engineerTo>
@@ -14,4 +14,30 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nota_fiscal" id="15D27D9A-7900-FCFF-4FF7-BDF0491FE2E9">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-28 20:12:20 UTC</createdTime>
+<generatorID>22C304BB-A91B-15E7-82B4-A0CA5B51CEBA</generatorID>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<engineerTo>
+<item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
+</engineerTo>
+<referedAttribute>FDAAC37E-6786-26CC-AD85-D2805901D5D7</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descricao" id="313ED7D3-A43A-8050-DA50-77CC03E1EEF5">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-28 20:13:33 UTC</createdTime>
+<generatorID>51BDBE8F-8BD6-07F9-8747-81386E33578F</generatorID>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<engineerTo>
+<item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
+</engineerTo>
+<referedAttribute>288A707F-F006-9B9B-DD39-7F3832852F9F</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
 </Entity>

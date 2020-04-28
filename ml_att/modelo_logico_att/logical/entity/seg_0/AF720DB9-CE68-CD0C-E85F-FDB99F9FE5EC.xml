@@ -2,7 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AF720DB9-CE68-CD0C-E85F-FDB99F9FE5EC" name="Bomba">
 <createdBy>USUÁRIO 01</createdBy>
 <createdTime>2020-04-23 18:15:36 UTC</createdTime>
-<ownerDesignName>Inicio</ownerDesignName>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
 <engineerTo>
 <item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
 </engineerTo>
@@ -19,7 +19,7 @@
 <createdBy>USUÁRIO 01</createdBy>
 <createdTime>2020-04-25 00:05:59 UTC</createdTime>
 <generatorID>EB742E1D-6C9E-3B3D-6999-A19AAEA498EF</generatorID>
-<ownerDesignName>Inicio</ownerDesignName>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
 <engineerTo>
 <item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
 </engineerTo>
@@ -30,7 +30,7 @@
 <Attribute name="NU" id="3212D124-2A3F-0CE1-6871-583361E9A027">
 <createdBy>USUÁRIO 01</createdBy>
 <createdTime>2020-04-25 00:09:03 UTC</createdTime>
-<ownerDesignName>Inicio</ownerDesignName>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
 <engineerTo>
 <item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
 </engineerTo>
@@ -40,7 +40,17 @@
 <Attribute name="quantidade" id="9BD48B51-FEE1-BF1A-4E24-220610B3AF72">
 <createdBy>USUÁRIO 01</createdBy>
 <createdTime>2020-04-25 00:08:30 UTC</createdTime>
-<ownerDesignName>Inicio</ownerDesignName>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<engineerTo>
+<item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="volume" id="9CE59541-1381-58D5-3DED-CAB71F601C7D">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-28 18:42:59 UTC</createdTime>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
 <engineerTo>
 <item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
 </engineerTo>
@@ -52,7 +62,7 @@
 <identifier id="0AF12FE6-59BC-1709-A97D-4CD334BA672C" name="Bomba PK">
 <createdBy>USUÁRIO 01</createdBy>
 <createdTime>2020-04-25 00:10:34 UTC</createdTime>
-<ownerDesignName>Inicio</ownerDesignName>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
 <engineerTo>
 <item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
 </engineerTo>

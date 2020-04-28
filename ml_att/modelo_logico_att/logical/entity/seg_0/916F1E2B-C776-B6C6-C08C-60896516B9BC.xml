@@ -2,7 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="916F1E2B-C776-B6C6-C08C-60896516B9BC" name="Abastecimentos">
 <createdBy>USUÁRIO 01</createdBy>
 <createdTime>2020-04-23 22:43:24 UTC</createdTime>
-<ownerDesignName>Inicio</ownerDesignName>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
 <engineerTo>
 <item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
 </engineerTo>
@@ -19,7 +19,7 @@
 <createdBy>USUÁRIO 01</createdBy>
 <createdTime>2020-04-25 00:10:40 UTC</createdTime>
 <generatorID>C5B40802-F0EC-FD10-7A06-1CEBC534ADFA</generatorID>
-<ownerDesignName>Inicio</ownerDesignName>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
 <engineerTo>
 <item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
 </engineerTo>
@@ -27,10 +27,20 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="notinha" id="8F955640-2FEC-8E2C-4389-7B9CEEF3C07B">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-25 00:25:40 UTC</createdTime>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<engineerTo>
+<item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="combustivel" id="BB07DA5E-2A91-925A-99F1-53736E653293">
 <createdBy>USUÁRIO 01</createdBy>
 <createdTime>2020-04-25 00:14:13 UTC</createdTime>
-<ownerDesignName>Inicio</ownerDesignName>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
 <engineerTo>
 <item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
 </engineerTo>
@@ -40,7 +50,7 @@
 <Attribute name="data" id="6E13AB04-9C53-3799-E7D2-1F450E7E297B">
 <createdBy>USUÁRIO 01</createdBy>
 <createdTime>2020-04-25 00:14:23 UTC</createdTime>
-<ownerDesignName>Inicio</ownerDesignName>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
 <engineerTo>
 <item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
 </engineerTo>
@@ -50,7 +60,7 @@
 <Attribute name="valor" id="94727D0C-B97C-9208-A99A-C49192C881D1">
 <createdBy>USUÁRIO 01</createdBy>
 <createdTime>2020-04-25 00:17:37 UTC</createdTime>
-<ownerDesignName>Inicio</ownerDesignName>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
 <engineerTo>
 <item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
 </engineerTo>
@@ -58,21 +68,11 @@
 <use>1</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nota" id="8F955640-2FEC-8E2C-4389-7B9CEEF3C07B">
-<createdBy>USUÁRIO 01</createdBy>
-<createdTime>2020-04-25 00:25:40 UTC</createdTime>
-<ownerDesignName>Inicio</ownerDesignName>
-<engineerTo>
-<item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="cpf" id="10593C55-F954-E30A-D684-0545B4DCC4F1">
 <createdBy>USUÁRIO 01</createdBy>
 <createdTime>2020-04-25 00:29:58 UTC</createdTime>
 <generatorID>7584CAE3-2B89-4398-BA4D-FE5AF6A8925A</generatorID>
-<ownerDesignName>Inicio</ownerDesignName>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
 <engineerTo>
 <item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
 </engineerTo>
@@ -85,13 +85,13 @@
 <identifier id="6254EBCB-7C56-7CB8-2ADC-AF0BCE4F6A39" name="Abastecimentos PK">
 <createdBy>USUÁRIO 01</createdBy>
 <createdTime>2020-04-25 00:16:23 UTC</createdTime>
-<ownerDesignName>Inicio</ownerDesignName>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
 <engineerTo>
 <item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>BB07DA5E-2A91-925A-99F1-53736E653293</attributeRef>
+<attributeRef>8F955640-2FEC-8E2C-4389-7B9CEEF3C07B</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

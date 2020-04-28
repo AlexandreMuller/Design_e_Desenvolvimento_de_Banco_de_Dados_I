@@ -2,16 +2,17 @@
 <Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_10" directorySegmentName="seg_0" id="22C304BB-A91B-15E7-82B4-A0CA5B51CEBA">
 <createdBy>USUÁRIO 01</createdBy>
 <createdTime>2020-04-24 23:22:05 UTC</createdTime>
-<ownerDesignName>Inicio</ownerDesignName>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
 <engineerTo>
 <item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
 </engineerTo>
+<targetPk>5BF16DCF-C7CB-B646-4B50-D94769129900</targetPk>
 <identifying>false</identifying>
-<optionalSource>true</optionalSource>
+<optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
-<sourceCardinality>1</sourceCardinality>
+<sourceCardinality>*</sourceCardinality>
 <sourceEntity>2F18940D-3A58-BE81-54D2-79B6E60ECB36</sourceEntity>
-<targetCardinalityString>*</targetCardinalityString>
+<targetCardinalityString>1</targetCardinalityString>
 <targetEntity>0C4728BA-0A6F-F6EF-EB2A-FD8F87B7CDBA</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>

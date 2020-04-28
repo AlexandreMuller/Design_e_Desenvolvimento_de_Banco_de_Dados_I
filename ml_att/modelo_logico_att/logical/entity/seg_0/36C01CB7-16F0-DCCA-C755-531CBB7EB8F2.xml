@@ -2,7 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="36C01CB7-16F0-DCCA-C755-531CBB7EB8F2" name="Cliente">
 <createdBy>USUÁRIO 01</createdBy>
 <createdTime>2020-04-16 20:00:28 UTC</createdTime>
-<ownerDesignName>Inicio</ownerDesignName>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
 <engineerTo>
 <item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
 </engineerTo>
@@ -18,7 +18,7 @@
 <Attribute name="cpf" id="06AA8624-5FF6-44F8-0B72-7346EAD577D9">
 <createdBy>USUÁRIO 01</createdBy>
 <createdTime>2020-04-25 00:05:22 UTC</createdTime>
-<ownerDesignName>Inicio</ownerDesignName>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
 <engineerTo>
 <item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
 </engineerTo>
@@ -28,7 +28,7 @@
 <Attribute name="nome" id="EE0E62C5-A2D7-BDD6-9547-DC7523C8B065">
 <createdBy>USUÁRIO 01</createdBy>
 <createdTime>2020-04-25 00:05:27 UTC</createdTime>
-<ownerDesignName>Inicio</ownerDesignName>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
 <engineerTo>
 <item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
 </engineerTo>
@@ -38,7 +38,7 @@
 <Attribute name="data_nascimento" id="79866822-24B0-4509-1557-D5C8ACC9CD1B">
 <createdBy>USUÁRIO 01</createdBy>
 <createdTime>2020-04-25 00:05:47 UTC</createdTime>
-<ownerDesignName>Inicio</ownerDesignName>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
 <engineerTo>
 <item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
 </engineerTo>
@@ -48,7 +48,7 @@
 <Attribute name="e-mail" id="37DAF07C-A777-1481-C78B-517583A98299">
 <createdBy>USUÁRIO 01</createdBy>
 <createdTime>2020-04-25 00:06:04 UTC</createdTime>
-<ownerDesignName>Inicio</ownerDesignName>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
 <engineerTo>
 <item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
 </engineerTo>
@@ -59,7 +59,7 @@
 <Attribute name="contato" id="F32D4A17-6C0C-80B7-488B-D30455B12EFB">
 <createdBy>USUÁRIO 01</createdBy>
 <createdTime>2020-04-25 00:07:52 UTC</createdTime>
-<ownerDesignName>Inicio</ownerDesignName>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
 <engineerTo>
 <item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
 </engineerTo>
@@ -71,7 +71,7 @@
 <identifier id="A707E195-5E16-F1BC-4384-4E944A92921F" name="Cliente PK">
 <createdBy>USUÁRIO 01</createdBy>
 <createdTime>2020-04-25 00:05:41 UTC</createdTime>
-<ownerDesignName>Inicio</ownerDesignName>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
 <engineerTo>
 <item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
 </engineerTo>

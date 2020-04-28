@@ -2,7 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B6CAC2A9-B795-23DF-EE91-B6DFEFC2AB4D" name="Atendentes">
 <createdBy>USUÁRIO 01</createdBy>
 <createdTime>2020-04-16 20:01:28 UTC</createdTime>
-<ownerDesignName>Inicio</ownerDesignName>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
 <engineerTo>
 <item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
 </engineerTo>
@@ -18,7 +18,7 @@
 <Attribute name="nome" id="8A5C715D-97B9-0A52-52E8-C6FF784E71FA">
 <createdBy>USUÁRIO 01</createdBy>
 <createdTime>2020-04-25 00:27:11 UTC</createdTime>
-<ownerDesignName>Inicio</ownerDesignName>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
 <engineerTo>
 <item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
 </engineerTo>
@@ -28,7 +28,7 @@
 <Attribute name="cpf" id="A2C0026C-9E4A-BE6B-64FC-23F85F53EBCA">
 <createdBy>USUÁRIO 01</createdBy>
 <createdTime>2020-04-25 00:27:16 UTC</createdTime>
-<ownerDesignName>Inicio</ownerDesignName>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
 <engineerTo>
 <item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
 </engineerTo>
@@ -38,7 +38,7 @@
 <Attribute name="horas_trabalhadas" id="0CFAD423-745F-9FB7-8F2E-85722AA60EEA">
 <createdBy>USUÁRIO 01</createdBy>
 <createdTime>2020-04-25 00:27:46 UTC</createdTime>
-<ownerDesignName>Inicio</ownerDesignName>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
 <engineerTo>
 <item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
 </engineerTo>
@@ -48,7 +48,7 @@
 <Attribute name="valor_hora" id="AB076D48-BA09-E0F3-F15F-9DCB025643E5">
 <createdBy>USUÁRIO 01</createdBy>
 <createdTime>2020-04-25 00:28:48 UTC</createdTime>
-<ownerDesignName>Inicio</ownerDesignName>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
 <engineerTo>
 <item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
 </engineerTo>
@@ -58,17 +58,18 @@
 <Attribute name="contato" id="E741FDC6-EBBC-8B57-1F09-E9A829012276">
 <createdBy>USUÁRIO 01</createdBy>
 <createdTime>2020-04-25 00:29:06 UTC</createdTime>
-<ownerDesignName>Inicio</ownerDesignName>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
 <engineerTo>
 <item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="endereco" id="E34C2C17-3754-0593-5EC6-0936BB8D0AD3">
 <createdBy>USUÁRIO 01</createdBy>
 <createdTime>2020-04-25 00:29:16 UTC</createdTime>
-<ownerDesignName>Inicio</ownerDesignName>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
 <engineerTo>
 <item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
 </engineerTo>
@@ -80,7 +81,7 @@
 <identifier id="BEB41043-3262-7B9B-561C-F3B1A0635136" name="Atendentes PK">
 <createdBy>USUÁRIO 01</createdBy>
 <createdTime>2020-04-25 00:29:51 UTC</createdTime>
-<ownerDesignName>Inicio</ownerDesignName>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
 <engineerTo>
 <item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
 </engineerTo>
