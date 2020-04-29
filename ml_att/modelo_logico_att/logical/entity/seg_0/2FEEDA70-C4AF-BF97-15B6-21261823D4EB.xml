@@ -35,7 +35,7 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="produto_fornecido" id="C79D6020-1058-228C-A73D-207A3FC3014F">
+<Attribute name="item_fornecido" id="C79D6020-1058-228C-A73D-207A3FC3014F">
 <createdBy>USUÁRIO 01</createdBy>
 <createdTime>2020-04-17 21:48:45 UTC</createdTime>
 <ownerDesignName>modelo_logico_att</ownerDesignName>

@@ -25,16 +25,6 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nome" id="EE0E62C5-A2D7-BDD6-9547-DC7523C8B065">
-<createdBy>USUÁRIO 01</createdBy>
-<createdTime>2020-04-25 00:05:27 UTC</createdTime>
-<ownerDesignName>modelo_logico_att</ownerDesignName>
-<engineerTo>
-<item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="data_nascimento" id="79866822-24B0-4509-1557-D5C8ACC9CD1B">
 <createdBy>USUÁRIO 01</createdBy>
 <createdTime>2020-04-25 00:05:47 UTC</createdTime>
@@ -59,6 +49,26 @@
 <Attribute name="contato" id="F32D4A17-6C0C-80B7-488B-D30455B12EFB">
 <createdBy>USUÁRIO 01</createdBy>
 <createdTime>2020-04-25 00:07:52 UTC</createdTime>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<engineerTo>
+<item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="primeiro_nome" id="EE0E62C5-A2D7-BDD6-9547-DC7523C8B065">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-25 00:05:27 UTC</createdTime>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<engineerTo>
+<item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sobrenome" id="6A2B0801-B3EC-A89E-9899-78593A392F61">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-29 00:27:02 UTC</createdTime>
 <ownerDesignName>modelo_logico_att</ownerDesignName>
 <engineerTo>
 <item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>

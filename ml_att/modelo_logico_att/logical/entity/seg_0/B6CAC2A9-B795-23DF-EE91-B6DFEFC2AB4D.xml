@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="nome" id="8A5C715D-97B9-0A52-52E8-C6FF784E71FA">
+<Attribute name="cpf" id="A2C0026C-9E4A-BE6B-64FC-23F85F53EBCA">
 <createdBy>USUÁRIO 01</createdBy>
-<createdTime>2020-04-25 00:27:11 UTC</createdTime>
+<createdTime>2020-04-25 00:27:16 UTC</createdTime>
 <ownerDesignName>modelo_logico_att</ownerDesignName>
 <engineerTo>
 <item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
@@ -25,9 +25,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cpf" id="A2C0026C-9E4A-BE6B-64FC-23F85F53EBCA">
+<Attribute name="nome" id="8A5C715D-97B9-0A52-52E8-C6FF784E71FA">
 <createdBy>USUÁRIO 01</createdBy>
-<createdTime>2020-04-25 00:27:16 UTC</createdTime>
+<createdTime>2020-04-25 00:27:11 UTC</createdTime>
 <ownerDesignName>modelo_logico_att</ownerDesignName>
 <engineerTo>
 <item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
