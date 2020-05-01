@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6B007198-A3C9-CA0D-9E73-39364ADAD7BA" name="Venda">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-29 22:14:29 UTC</createdTime>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Venda" id="80D83781-7645-3ACB-5F7B-3F46620B52EC">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-05-01 00:02:23 UTC</createdTime>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nota_fiscal" id="6F0FB4B7-B0B5-4EAA-07F1-F32B448067D1">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-29 22:15:45 UTC</createdTime>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="total_v" id="B4D9DE8B-92AA-6C54-78BA-45B7C6DCDF5B">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-29 22:15:45 UTC</createdTime>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data" id="11BA740B-CE18-D672-BAF4-B735BA2A0233">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-29 22:16:37 UTC</createdTime>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_Cliente_Venda" id="EFC4AF5F-9252-4704-28A2-76459B4414E3">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-29 22:17:42 UTC</createdTime>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C49F4E05-D3D6-32F8-7505-E62F3A4139AA" referredColumn="B7EF7461-8784-4B9C-5080-5D2DF8184C57"/>
+</associations>
+</Column>
+<Column name="ID_Atend_Venda" id="E279F486-5942-2FBA-D072-7B36CE9E82E5">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-29 22:57:50 UTC</createdTime>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="377B7069-2179-AD77-46D8-F7EDAC426538" referredColumn="4EE19A77-B127-CD6F-3037-7BA4F4EE5133"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="63115D39-A562-D8D0-C691-8AE8223F5B7F" name="Venda_PK">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-05-01 00:02:23 UTC</createdTime>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="80D83781-7645-3ACB-5F7B-3F46620B52EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C9F44D9F-C993-11FE-0B66-876E6A823947" name="ID_Cliente">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-29 22:17:42 UTC</createdTime>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EFC4AF5F-9252-4704-28A2-76459B4414E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="36530B06-7B96-BBC5-6B03-669CBABEE3C2" name="ID_Atendente_Venda">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-29 22:57:50 UTC</createdTime>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E279F486-5942-2FBA-D072-7B36CE9E82E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

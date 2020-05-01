@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6A1DF381-D083-DE2D-024F-FD850191117F" name="Atendentes">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-29 22:52:15 UTC</createdTime>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Atendente" id="4EE19A77-B127-CD6F-3037-7BA4F4EE5133">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-29 22:55:46 UTC</createdTime>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpf" id="00259557-A69D-2BFB-00E4-41996BB1D980">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-29 22:53:29 UTC</createdTime>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="D4910528-EA49-321F-23C6-43ABB4EF7215">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-29 22:53:29 UTC</createdTime>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="horas_trabalhadas" id="6545AC4D-CD4B-8DA2-3291-4E75314A0703">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-29 22:53:29 UTC</createdTime>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_hora" id="4266B012-F8D1-57FF-A16A-DC00EB001EAA">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-29 22:53:29 UTC</createdTime>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="endereço" id="92A54DEA-29CB-78EA-20CE-AD12B0451021">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-29 22:53:29 UTC</createdTime>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="contato" id="016E6541-5684-81C4-CBFD-C088790998D1">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-29 22:53:29 UTC</createdTime>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6E0067A5-2699-A0E0-B4ED-CA27C7F6507B" name="Atendentes_PK">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-29 22:55:46 UTC</createdTime>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4EE19A77-B127-CD6F-3037-7BA4F4EE5133"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4F6AC4C3-43EB-7965-3869-04F814CD0D6A" name="Abastecimento">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-29 22:48:57 UTC</createdTime>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="notinha" id="AF5681F2-D54C-E4F9-238C-B626BAA50EC4">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-29 22:50:05 UTC</createdTime>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="combustivel" id="2DA3FDB8-9430-A430-E973-32BABEDDFFC1">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-29 22:50:05 UTC</createdTime>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data" id="1E879AD6-FBCA-9CBC-5D39-EFAB6581E439">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-29 22:50:05 UTC</createdTime>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="total" id="4D295B85-FF93-8C7E-9503-8B8AEECEAF1F">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-29 22:50:05 UTC</createdTime>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Bomba_NU" id="E057A818-23BB-7A3A-95DA-8C5D521BCA7F">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-29 22:51:04 UTC</createdTime>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5A13D154-F212-06F1-9843-294F7E21E365" referredColumn="798664C1-BDF6-5560-C9CC-B7A63254004E"/>
+</associations>
+</Column>
+<Column name="ID_Atendente" id="7D3B7FB0-6A8F-3C47-4B3D-E3C8FA3A98E7">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-29 22:56:26 UTC</createdTime>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1137E4EC-374C-A104-07AB-1FDBD2B061BA" referredColumn="4EE19A77-B127-CD6F-3037-7BA4F4EE5133"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3E42AF6D-7A15-DAE3-5875-838B8594D42C" name="ID_NU_Abast">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-29 22:51:04 UTC</createdTime>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E057A818-23BB-7A3A-95DA-8C5D521BCA7F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="727E5316-EC66-059C-F415-E6F984841578" name="ID_Atendente_Abast">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-29 22:56:26 UTC</createdTime>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D3B7FB0-6A8F-3C47-4B3D-E3C8FA3A98E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

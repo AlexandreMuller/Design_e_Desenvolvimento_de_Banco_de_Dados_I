@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2A7389C5-9960-E87F-33AF-CA099F833883" name="Produtos">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-29 22:59:10 UTC</createdTime>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Produto" id="301624C6-1B23-0912-0AF6-B72A8AC873C3">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-30 23:59:53 UTC</createdTime>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cod_barra" id="2F1EE6B3-4A72-5B1D-C6CA-6C766CE97DE7">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-30 23:57:47 UTC</createdTime>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="modelo" id="5B8E14FC-A6DD-D483-5109-74D34434A9E0">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-29 23:00:11 UTC</createdTime>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="marca" id="B5B5C1D0-727B-3960-0AE6-7CFEF933E41F">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-29 23:00:11 UTC</createdTime>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="E25FE3BD-A092-9B62-945E-7D94F0DB38A8">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-29 23:00:11 UTC</createdTime>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor" id="A258016F-6459-07BE-9A53-FCC7A9860091">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-30 23:56:49 UTC</createdTime>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_Forn_Produc" id="CCE25486-2731-C373-AAB4-2215C4A6A3B1">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-29 23:09:06 UTC</createdTime>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0F7DD71F-C21A-F8F1-2B05-8B6F87309E32" referredColumn="129CC78D-80C7-1217-6B1D-4B498CFC48F7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5FBD68ED-6053-182B-5101-478AF74D734F" name="Produtos_PK">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-30 23:59:58 UTC</createdTime>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="301624C6-1B23-0912-0AF6-B72A8AC873C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="88FA7811-F8C6-9191-35BA-6975D339034A" name="ID_Fornec">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-29 23:09:06 UTC</createdTime>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CCE25486-2731-C373-AAB4-2215C4A6A3B1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

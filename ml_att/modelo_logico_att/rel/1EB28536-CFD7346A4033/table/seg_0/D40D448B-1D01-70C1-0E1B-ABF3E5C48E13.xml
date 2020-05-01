@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D40D448B-1D01-70C1-0E1B-ABF3E5C48E13" name="Bomba">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-29 22:08:54 UTC</createdTime>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NU" id="798664C1-BDF6-5560-C9CC-B7A63254004E">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-29 22:09:47 UTC</createdTime>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quantidade" id="8B1CCC72-9955-A217-0E22-3A96D7AC7C91">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-29 22:10:03 UTC</createdTime>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="volume" id="B713E308-E84A-E5C6-1FE5-310C52425E13">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-29 22:11:46 UTC</createdTime>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cliente_ID_Cliente" id="8CFCF291-A4B2-BD61-40C2-FFC153831DC7">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-29 22:47:49 UTC</createdTime>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CA876B26-8441-1E45-A2AA-B2163D9BF561" referredColumn="B7EF7461-8784-4B9C-5080-5D2DF8184C57"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="927B7073-3C75-9EEB-886E-1DD74646CB3F" name="Bomba_PK">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-29 22:09:47 UTC</createdTime>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="798664C1-BDF6-5560-C9CC-B7A63254004E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AD12EA52-0CCF-D6A2-D54E-1816BA2DD95F" name="ID_Cliente_Bombas">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-29 22:47:49 UTC</createdTime>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8CFCF291-A4B2-BD61-40C2-FFC153831DC7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CE27D55D-DEBB-99CF-54BA-491A1E4D490C" name="Fornecedor">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-29 23:02:11 UTC</createdTime>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Fornecedor" id="129CC78D-80C7-1217-6B1D-4B498CFC48F7">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-29 23:08:29 UTC</createdTime>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cnpj" id="04EDEDA2-13A9-BD24-7DB2-9A13122A7FEC">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-29 23:03:04 UTC</createdTime>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="razao_social" id="9183D866-A484-9EAC-FA47-08A1ED7D486E">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-29 23:03:04 UTC</createdTime>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="item_fornecido" id="1BBE3FD2-B973-EB09-1B70-3BF7C2095E68">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-29 23:03:04 UTC</createdTime>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="contato" id="3D4FDFBE-F61C-8624-342B-C5D3306496C7">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-29 23:03:04 UTC</createdTime>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="91A98DAA-D7C3-CA47-0FF7-80992927892E" name="Fornecedor_PK">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-29 23:08:29 UTC</createdTime>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="129CC78D-80C7-1217-6B1D-4B498CFC48F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

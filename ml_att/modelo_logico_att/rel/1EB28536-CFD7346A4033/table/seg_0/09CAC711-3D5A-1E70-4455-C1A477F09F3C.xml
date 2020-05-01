@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="09CAC711-3D5A-1E70-4455-C1A477F09F3C" name="Cliente">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-29 22:04:12 UTC</createdTime>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Cliente" id="B7EF7461-8784-4B9C-5080-5D2DF8184C57">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-29 22:08:24 UTC</createdTime>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpf" id="0D75EA99-891B-D9A2-0883-7EE715531BE6">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-29 22:06:57 UTC</createdTime>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_nascimento" id="E9A2ACEE-8081-119B-7FA3-54AA67D598A6">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-29 22:06:57 UTC</createdTime>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="primeiro_nome" id="A0FC6869-AA23-43D8-3436-B097117E0C71">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-29 22:07:48 UTC</createdTime>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sobrenome" id="BE06DD00-6358-BC05-22B3-B74389CF8688">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-29 22:08:01 UTC</createdTime>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="e-mail" id="CA64ED44-A011-538A-D4E0-585BE472CFA9">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-29 22:06:57 UTC</createdTime>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="contato" id="0CC827AD-425D-9A4B-384B-A11631F2999A">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-29 22:07:27 UTC</createdTime>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="574D657A-BE09-E15E-2590-9D5EE046C244" name="Cliente_PK">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-29 22:08:24 UTC</createdTime>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7EF7461-8784-4B9C-5080-5D2DF8184C57"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

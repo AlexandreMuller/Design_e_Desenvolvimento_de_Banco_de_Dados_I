@@ -5,6 +5,7 @@
 <ownerDesignName>modelo_logico_att</ownerDesignName>
 <engineerTo>
 <item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
+<item key="1EB28536-803F-B296-6098-CFD7346A4033" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -22,47 +23,30 @@
 <ownerDesignName>modelo_logico_att</ownerDesignName>
 <engineerTo>
 <item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
+<item key="1EB28536-803F-B296-6098-CFD7346A4033" value="true"/>
 </engineerTo>
 <referedAttribute>4B7FC8AB-6BF8-DCA9-7587-A87E047A563E</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="descricao" id="288A707F-F006-9B9B-DD39-7F3832852F9F">
+<Attribute name="cod_barra" id="A363159C-1FE3-D3D8-ADEC-4EC73A997CEB">
 <createdBy>USUÁRIO 01</createdBy>
-<createdTime>2020-04-24 23:36:49 UTC</createdTime>
+<createdTime>2020-04-30 23:51:27 UTC</createdTime>
 <ownerDesignName>modelo_logico_att</ownerDesignName>
 <engineerTo>
 <item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
+<item key="1EB28536-803F-B296-6098-CFD7346A4033" value="true"/>
 </engineerTo>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="item" id="9DD7E3C1-93B0-4D66-5167-150C2EEBD0F6">
+<Attribute name="modelo" id="9DD7E3C1-93B0-4D66-5167-150C2EEBD0F6">
 <createdBy>USUÁRIO 01</createdBy>
 <createdTime>2020-04-24 23:36:31 UTC</createdTime>
 <ownerDesignName>modelo_logico_att</ownerDesignName>
 <engineerTo>
 <item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="nome" id="02EADA05-E0C7-888B-8758-2474D78696BF">
-<createdBy>USUÁRIO 01</createdBy>
-<createdTime>2020-04-24 23:36:38 UTC</createdTime>
-<ownerDesignName>modelo_logico_att</ownerDesignName>
-<engineerTo>
-<item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="quantidade" id="552B3CE1-735B-806A-286A-25B81AAD0145">
-<createdBy>USUÁRIO 01</createdBy>
-<createdTime>2020-04-24 23:36:43 UTC</createdTime>
-<ownerDesignName>modelo_logico_att</ownerDesignName>
-<engineerTo>
-<item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
+<item key="1EB28536-803F-B296-6098-CFD7346A4033" value="true"/>
 </engineerTo>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
@@ -73,8 +57,30 @@
 <ownerDesignName>modelo_logico_att</ownerDesignName>
 <engineerTo>
 <item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
+<item key="1EB28536-803F-B296-6098-CFD7346A4033" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="02EADA05-E0C7-888B-8758-2474D78696BF">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-24 23:36:38 UTC</createdTime>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<engineerTo>
+<item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
+<item key="1EB28536-803F-B296-6098-CFD7346A4033" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor" id="6686BDA6-E85D-8590-3FA9-ADE948FD2FB5">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-30 23:53:30 UTC</createdTime>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<engineerTo>
+<item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
+<item key="1EB28536-803F-B296-6098-CFD7346A4033" value="true"/>
+</engineerTo>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -86,10 +92,11 @@
 <ownerDesignName>modelo_logico_att</ownerDesignName>
 <engineerTo>
 <item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
+<item key="1EB28536-803F-B296-6098-CFD7346A4033" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>288A707F-F006-9B9B-DD39-7F3832852F9F</attributeRef>
+<attributeRef>A363159C-1FE3-D3D8-ADEC-4EC73A997CEB</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

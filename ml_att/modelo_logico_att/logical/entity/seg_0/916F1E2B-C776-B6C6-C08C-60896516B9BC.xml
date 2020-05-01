@@ -5,6 +5,7 @@
 <ownerDesignName>modelo_logico_att</ownerDesignName>
 <engineerTo>
 <item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
+<item key="1EB28536-803F-B296-6098-CFD7346A4033" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -22,6 +23,7 @@
 <ownerDesignName>modelo_logico_att</ownerDesignName>
 <engineerTo>
 <item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
+<item key="1EB28536-803F-B296-6098-CFD7346A4033" value="true"/>
 </engineerTo>
 <referedAttribute>3212D124-2A3F-0CE1-6871-583361E9A027</referedAttribute>
 <use>0</use>
@@ -33,6 +35,7 @@
 <ownerDesignName>modelo_logico_att</ownerDesignName>
 <engineerTo>
 <item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
+<item key="1EB28536-803F-B296-6098-CFD7346A4033" value="true"/>
 </engineerTo>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
@@ -43,6 +46,7 @@
 <ownerDesignName>modelo_logico_att</ownerDesignName>
 <engineerTo>
 <item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
+<item key="1EB28536-803F-B296-6098-CFD7346A4033" value="true"/>
 </engineerTo>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
@@ -53,16 +57,18 @@
 <ownerDesignName>modelo_logico_att</ownerDesignName>
 <engineerTo>
 <item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
+<item key="1EB28536-803F-B296-6098-CFD7346A4033" value="true"/>
 </engineerTo>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="valor" id="94727D0C-B97C-9208-A99A-C49192C881D1">
+<Attribute name="total" id="94727D0C-B97C-9208-A99A-C49192C881D1">
 <createdBy>USUÁRIO 01</createdBy>
 <createdTime>2020-04-25 00:17:37 UTC</createdTime>
 <ownerDesignName>modelo_logico_att</ownerDesignName>
 <engineerTo>
 <item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
+<item key="1EB28536-803F-B296-6098-CFD7346A4033" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -75,6 +81,7 @@
 <ownerDesignName>modelo_logico_att</ownerDesignName>
 <engineerTo>
 <item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
+<item key="1EB28536-803F-B296-6098-CFD7346A4033" value="true"/>
 </engineerTo>
 <referedAttribute>A2C0026C-9E4A-BE6B-64FC-23F85F53EBCA</referedAttribute>
 <use>0</use>
@@ -88,6 +95,7 @@
 <ownerDesignName>modelo_logico_att</ownerDesignName>
 <engineerTo>
 <item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
+<item key="1EB28536-803F-B296-6098-CFD7346A4033" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
