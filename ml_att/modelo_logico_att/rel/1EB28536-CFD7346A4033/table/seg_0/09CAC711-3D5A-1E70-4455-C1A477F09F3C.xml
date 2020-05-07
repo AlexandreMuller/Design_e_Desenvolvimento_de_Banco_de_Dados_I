@@ -58,7 +58,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="e-mail" id="CA64ED44-A011-538A-D4E0-585BE472CFA9">
+<Column name="email" id="CA64ED44-A011-538A-D4E0-585BE472CFA9">
 <createdBy>USUÁRIO 01</createdBy>
 <createdTime>2020-04-29 22:06:57 UTC</createdTime>
 <ownerDesignName>modelo_logico_att</ownerDesignName>

@@ -5,6 +5,7 @@
 <ownerDesignName>modelo_logico_att</ownerDesignName>
 <engineerTo>
 <item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
+<item key="1EB28536-803F-B296-6098-CFD7346A4033" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,6 +22,7 @@
 <ownerDesignName>modelo_logico_att</ownerDesignName>
 <engineerTo>
 <item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
+<item key="1EB28536-803F-B296-6098-CFD7346A4033" value="true"/>
 </engineerTo>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
@@ -31,16 +33,18 @@
 <ownerDesignName>modelo_logico_att</ownerDesignName>
 <engineerTo>
 <item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
+<item key="1EB28536-803F-B296-6098-CFD7346A4033" value="true"/>
 </engineerTo>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="e-mail" id="37DAF07C-A777-1481-C78B-517583A98299">
+<Attribute name="email" id="37DAF07C-A777-1481-C78B-517583A98299">
 <createdBy>USUÁRIO 01</createdBy>
 <createdTime>2020-04-25 00:06:04 UTC</createdTime>
 <ownerDesignName>modelo_logico_att</ownerDesignName>
 <engineerTo>
 <item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
+<item key="1EB28536-803F-B296-6098-CFD7346A4033" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
@@ -52,6 +56,7 @@
 <ownerDesignName>modelo_logico_att</ownerDesignName>
 <engineerTo>
 <item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
+<item key="1EB28536-803F-B296-6098-CFD7346A4033" value="true"/>
 </engineerTo>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
@@ -62,6 +67,7 @@
 <ownerDesignName>modelo_logico_att</ownerDesignName>
 <engineerTo>
 <item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
+<item key="1EB28536-803F-B296-6098-CFD7346A4033" value="true"/>
 </engineerTo>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
@@ -72,6 +78,7 @@
 <ownerDesignName>modelo_logico_att</ownerDesignName>
 <engineerTo>
 <item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
+<item key="1EB28536-803F-B296-6098-CFD7346A4033" value="true"/>
 </engineerTo>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
@@ -84,6 +91,7 @@
 <ownerDesignName>modelo_logico_att</ownerDesignName>
 <engineerTo>
 <item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
+<item key="1EB28536-803F-B296-6098-CFD7346A4033" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
