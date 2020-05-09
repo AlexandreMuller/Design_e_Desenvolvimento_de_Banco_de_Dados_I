@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CEE03A0E-C9B7-69E7-3898-FA6BD497739D" name="Produtos">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CEE03A0E-C9B7-69E7-3898-FA6BD497739D" name="Produto">
 <createdBy>USUÁRIO 01</createdBy>
 <createdTime>2020-04-23 22:41:41 UTC</createdTime>
 <ownerDesignName>modelo_logico_att</ownerDesignName>
@@ -16,22 +16,20 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="asdasdasdasd" id="58C6E141-81B6-636B-FC89-75677AC1B009">
+<Attribute name="cod_barra" id="A363159C-1FE3-D3D8-ADEC-4EC73A997CEB">
 <createdBy>USUÁRIO 01</createdBy>
-<createdTime>2020-04-23 22:55:15 UTC</createdTime>
-<generatorID>3FE3AC8B-C0E8-B943-6A9D-659403E28B77</generatorID>
+<createdTime>2020-04-30 23:51:27 UTC</createdTime>
 <ownerDesignName>modelo_logico_att</ownerDesignName>
 <engineerTo>
 <item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
 <item key="1EB28536-803F-B296-6098-CFD7346A4033" value="true"/>
 </engineerTo>
-<referedAttribute>4B7FC8AB-6BF8-DCA9-7587-A87E047A563E</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cod_barra" id="A363159C-1FE3-D3D8-ADEC-4EC73A997CEB">
+<Attribute name="valor" id="6686BDA6-E85D-8590-3FA9-ADE948FD2FB5">
 <createdBy>USUÁRIO 01</createdBy>
-<createdTime>2020-04-30 23:51:27 UTC</createdTime>
+<createdTime>2020-04-30 23:53:30 UTC</createdTime>
 <ownerDesignName>modelo_logico_att</ownerDesignName>
 <engineerTo>
 <item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
@@ -62,26 +60,19 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nome" id="02EADA05-E0C7-888B-8758-2474D78696BF">
+<Attribute name="cnpj" id="7DA4A391-2A78-E8CA-3985-E953CF767CFC">
 <createdBy>USUÁRIO 01</createdBy>
-<createdTime>2020-04-24 23:36:38 UTC</createdTime>
+<createdTime>2020-05-08 23:01:47 UTC</createdTime>
+<generatorID>3FE3AC8B-C0E8-B943-6A9D-659403E28B77</generatorID>
 <ownerDesignName>modelo_logico_att</ownerDesignName>
 <engineerTo>
 <item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
 <item key="1EB28536-803F-B296-6098-CFD7346A4033" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="valor" id="6686BDA6-E85D-8590-3FA9-ADE948FD2FB5">
-<createdBy>USUÁRIO 01</createdBy>
-<createdTime>2020-04-30 23:53:30 UTC</createdTime>
-<ownerDesignName>modelo_logico_att</ownerDesignName>
-<engineerTo>
-<item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
-<item key="1EB28536-803F-B296-6098-CFD7346A4033" value="true"/>
-</engineerTo>
-<use>0</use>
+<referedAttribute>4B7FC8AB-6BF8-DCA9-7587-A87E047A563E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -97,6 +88,7 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>A363159C-1FE3-D3D8-ADEC-4EC73A997CEB</attributeRef>
+<attributeRef>7DA4A391-2A78-E8CA-3985-E953CF767CFC</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

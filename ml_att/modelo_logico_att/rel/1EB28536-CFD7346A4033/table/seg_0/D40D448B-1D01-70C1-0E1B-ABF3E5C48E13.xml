@@ -32,7 +32,6 @@
 <createdBy>USUÁRIO 01</createdBy>
 <createdTime>2020-04-29 22:11:46 UTC</createdTime>
 <ownerDesignName>modelo_logico_att</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT021</logicalDatatype>

@@ -27,17 +27,6 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="data_nascimento" id="79866822-24B0-4509-1557-D5C8ACC9CD1B">
-<createdBy>USUÁRIO 01</createdBy>
-<createdTime>2020-04-25 00:05:47 UTC</createdTime>
-<ownerDesignName>modelo_logico_att</ownerDesignName>
-<engineerTo>
-<item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
-<item key="1EB28536-803F-B296-6098-CFD7346A4033" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="email" id="37DAF07C-A777-1481-C78B-517583A98299">
 <createdBy>USUÁRIO 01</createdBy>
 <createdTime>2020-04-25 00:06:04 UTC</createdTime>
@@ -61,7 +50,18 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="primeiro_nome" id="EE0E62C5-A2D7-BDD6-9547-DC7523C8B065">
+<Attribute name="data_nascimento" id="79866822-24B0-4509-1557-D5C8ACC9CD1B">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-04-25 00:05:47 UTC</createdTime>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<engineerTo>
+<item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
+<item key="1EB28536-803F-B296-6098-CFD7346A4033" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="EE0E62C5-A2D7-BDD6-9547-DC7523C8B065">
 <createdBy>USUÁRIO 01</createdBy>
 <createdTime>2020-04-25 00:05:27 UTC</createdTime>
 <ownerDesignName>modelo_logico_att</ownerDesignName>
@@ -85,9 +85,9 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="A707E195-5E16-F1BC-4384-4E944A92921F" name="Cliente PK">
+<identifier id="032615EB-23EE-E4AF-45A1-010FC5C546AE" name="Cliente PKv2">
 <createdBy>USUÁRIO 01</createdBy>
-<createdTime>2020-04-25 00:05:41 UTC</createdTime>
+<createdTime>2020-05-06 01:42:02 UTC</createdTime>
 <ownerDesignName>modelo_logico_att</ownerDesignName>
 <engineerTo>
 <item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
@@ -96,6 +96,32 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>06AA8624-5FF6-44F8-0B72-7346EAD577D9</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="39977014-ADBD-B9D0-D94C-1D958F2FD7E6" name="email">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-05-06 01:42:25 UTC</createdTime>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<engineerTo>
+<item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
+<item key="1EB28536-803F-B296-6098-CFD7346A4033" value="true"/>
+</engineerTo>
+<newElementsIDs>37DAF07C-A777-1481-C78B-517583A98299</newElementsIDs>
+<usedAttributes>
+<attributeRef>37DAF07C-A777-1481-C78B-517583A98299</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="0017F15E-9265-25FA-EF4B-5B0E49A9A51D" name="contato">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-05-08 23:24:20 UTC</createdTime>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<engineerTo>
+<item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
+<item key="1EB28536-803F-B296-6098-CFD7346A4033" value="true"/>
+</engineerTo>
+<newElementsIDs>F32D4A17-6C0C-80B7-488B-D30455B12EFB</newElementsIDs>
+<usedAttributes>
+<attributeRef>F32D4A17-6C0C-80B7-488B-D30455B12EFB</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

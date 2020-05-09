@@ -2,9 +2,10 @@
 <Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_8" directorySegmentName="seg_0" id="EB742E1D-6C9E-3B3D-6999-A19AAEA498EF">
 <createdBy>USUÁRIO 01</createdBy>
 <createdTime>2020-04-23 18:15:49 UTC</createdTime>
-<ownerDesignName>Inicio</ownerDesignName>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
 <engineerTo>
 <item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
+<item key="1EB28536-803F-B296-6098-CFD7346A4033" value="true"/>
 </engineerTo>
 <sourcePk>A707E195-5E16-F1BC-4384-4E944A92921F</sourcePk>
 <identifying>false</identifying>

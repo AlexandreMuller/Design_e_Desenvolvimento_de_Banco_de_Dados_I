@@ -61,8 +61,22 @@
 <item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
 <item key="1EB28536-803F-B296-6098-CFD7346A4033" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cnpj" id="25D60D24-C27D-14B7-F728-46E37CD534AA">
+<createdBy>USUÁRIO 01</createdBy>
+<createdTime>2020-05-08 23:32:17 UTC</createdTime>
+<generatorID>51BDBE8F-8BD6-07F9-8747-81386E33578F</generatorID>
+<ownerDesignName>modelo_logico_att</ownerDesignName>
+<engineerTo>
+<item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
+<item key="1EB28536-803F-B296-6098-CFD7346A4033" value="true"/>
+</engineerTo>
+<referedAttribute>7DA4A391-2A78-E8CA-3985-E953CF767CFC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -76,6 +90,9 @@
 <item key="1EB28536-803F-B296-6098-CFD7346A4033" value="true"/>
 </engineerTo>
 <pk>true</pk>
+<usedAttributes>
+<attributeRef>80BD8F34-9D05-42F0-9DF1-DDCEABEEF61C</attributeRef>
+</usedAttributes>
 </identifier>
 </identifiers>
 </Entity>

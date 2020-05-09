@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2A7389C5-9960-E87F-33AF-CA099F833883" name="Produtos">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2A7389C5-9960-E87F-33AF-CA099F833883" name="Produto">
 <createdBy>USUÁRIO 01</createdBy>
 <createdTime>2020-04-29 22:59:10 UTC</createdTime>
 <ownerDesignName>modelo_logico_att</ownerDesignName>
@@ -24,6 +24,7 @@
 <ownerDesignName>modelo_logico_att</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -38,16 +39,6 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="marca" id="B5B5C1D0-727B-3960-0AE6-7CFEF933E41F">
-<createdBy>USUÁRIO 01</createdBy>
-<createdTime>2020-04-29 23:00:11 UTC</createdTime>
-<ownerDesignName>modelo_logico_att</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="nome" id="E25FE3BD-A092-9B62-945E-7D94F0DB38A8">
 <createdBy>USUÁRIO 01</createdBy>
 <createdTime>2020-04-29 23:00:11 UTC</createdTime>
 <ownerDesignName>modelo_logico_att</ownerDesignName>
@@ -83,7 +74,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="5FBD68ED-6053-182B-5101-478AF74D734F" name="Produtos_PK">
+<ind_PK_UK id="5FBD68ED-6053-182B-5101-478AF74D734F" name="Produto_PK">
 <createdBy>USUÁRIO 01</createdBy>
 <createdTime>2020-04-30 23:59:58 UTC</createdTime>
 <ownerDesignName>modelo_logico_att</ownerDesignName>

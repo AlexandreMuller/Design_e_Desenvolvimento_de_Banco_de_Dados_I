@@ -16,19 +16,6 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="asdasdasdasd" id="1B8C2529-C193-35E4-B78B-2A4685B06337">
-<createdBy>USUÁRIO 01</createdBy>
-<createdTime>2020-04-25 00:05:59 UTC</createdTime>
-<generatorID>EB742E1D-6C9E-3B3D-6999-A19AAEA498EF</generatorID>
-<ownerDesignName>modelo_logico_att</ownerDesignName>
-<engineerTo>
-<item key="C660292E-C0DC-52C4-4504-A713325A10CF" value="true"/>
-<item key="1EB28536-803F-B296-6098-CFD7346A4033" value="true"/>
-</engineerTo>
-<referedAttribute>06AA8624-5FF6-44F8-0B72-7346EAD577D9</referedAttribute>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="NU" id="3212D124-2A3F-0CE1-6871-583361E9A027">
 <createdBy>USUÁRIO 01</createdBy>
 <createdTime>2020-04-25 00:09:03 UTC</createdTime>

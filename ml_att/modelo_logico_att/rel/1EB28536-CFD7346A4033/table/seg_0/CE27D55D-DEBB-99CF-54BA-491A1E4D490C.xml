@@ -24,7 +24,7 @@
 <ownerDesignName>modelo_logico_att</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -38,24 +38,13 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="item_fornecido" id="1BBE3FD2-B973-EB09-1B70-3BF7C2095E68">
+<Column name="contato" id="3D4FDFBE-F61C-8624-342B-C5D3306496C7">
 <createdBy>USUÁRIO 01</createdBy>
 <createdTime>2020-04-29 23:03:04 UTC</createdTime>
 <ownerDesignName>modelo_logico_att</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="contato" id="3D4FDFBE-F61C-8624-342B-C5D3306496C7">
-<createdBy>USUÁRIO 01</createdBy>
-<createdTime>2020-04-29 23:03:04 UTC</createdTime>
-<ownerDesignName>modelo_logico_att</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>

@@ -24,7 +24,7 @@
 <ownerDesignName>modelo_logico_att</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -38,7 +38,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="primeiro_nome" id="A0FC6869-AA23-43D8-3436-B097117E0C71">
+<Column name="nome" id="A0FC6869-AA23-43D8-3436-B097117E0C71">
 <createdBy>USUÁRIO 01</createdBy>
 <createdTime>2020-04-29 22:07:48 UTC</createdTime>
 <ownerDesignName>modelo_logico_att</ownerDesignName>
