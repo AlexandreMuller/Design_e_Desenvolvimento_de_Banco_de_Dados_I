@@ -22,13 +22,13 @@
 
 ## Quais perguntas que o banco de dados pode responder
 
-1. Quais tipos de veículo o posto mais atende?
-2. Tipo de combustível mais vendido? e menos vendido?
-3. Quantos litros em média cada carro abastece?
-4. Qual ou quais dias se tem o maior número de carros no posto?
-5. Frequência de carros que vão ao posto apenas para fazer troca de óleo? e calibrar o pneu?
+1. Qual atendente mais vendeu ?
+2. Qual cliente mais comprou ?
+3. Quantos litros em média um cliente abastece?            
+4. Qual ou quais dias se tem o maior número de clientes no posto ?
+5.
 6. Quais são os produtos mais vendidos na loja de conveniência?
 7. Com que frequência os clintes abastecem o veículo e vão na loja de conveniência?
 8. Qual é a hora de maior pico ao longo do dia?
-9. Aonde os funcionários moram?
+9. Qual o contato de cada atendente ?
 10. Quais são os fornecedores de combustível?
